@@ -1,0 +1,16 @@
+rbenv:
+  global:
+    2.4.1
+  versions:
+    - 2.4.1
+
+rbenv-default-gems:
+  default-gems:
+    - bundler
+  install: true
+
+users:
+  -
+    name: deploy
+    public_key:
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKzIh/MNqsPs0SeJVVBSlILl5SQyAt8zLfYdg4fgFbL7C+PnfVYYIxka0TceezLbBj6wz2A0Wq+lJXXHzG0r+PYp431ojiZR/ezDyn6+ZwZ7JayqvLjaDG8BPW6UNARMozvvvJk8P70cH4IZNnlKwAbsyBZXFJvmlzxGRobItYotd82ICMc0+faJawk8pOpFtE7MYpR5Pa66d6l/uMOQTCV3VzhrZc+yfzE2fLXd0PXul5uMhZ8UXqgIKyOwQ8s6z8BUyMTclwP3OVedEXtyL0fJkUcQyHT8BElcUaRMN/5RuapBaasKRsOGL4Ee/XqSvwg/qrIjMUZVyA1tdW5h4t test-deploy
